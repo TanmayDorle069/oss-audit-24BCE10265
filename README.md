@@ -1,117 +1,146 @@
-# Open Source Audit – Python
+<div align="center">
 
-**Student Name:** Tanmay Ajay Dorle
+# 🚀 Open Source Audit – Python
 
-Registration Number:24BCE10265
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00FF9C&center=true&vCenter=true&width=700&lines=Exploring+Open+Source+Software;Linux+System+Auditing+Project;Shell+Scripting+in+Action;Python+in+the+FOSS+Ecosystem" />
 
-Program :B.Tech Computer Science and Engineering
-**Course:** Open Source Software (OSS NGMC)
-**Project:** Open Source Audit Capstone Project
-**Chosen Software:** Python Programming Language
+<br>
 
----
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge)
+![Linux](https://img.shields.io/badge/Tested%20on-Linux-blue?style=for-the-badge)
+![Bash](https://img.shields.io/badge/Shell-Bash-black?style=for-the-badge)
+![Python](https://img.shields.io/badge/Software-Python-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/tanmaydorle/oss-audit-24BCE10265?style=for-the-badge)
 
-## Project Overview
-
-This project is a structured audit of an open-source software system.
-The goal of the project is to understand the philosophy, ecosystem, and real-world usage of open-source software while also demonstrating Linux shell scripting skills.
-
-For this project, I selected **Python**, one of the most widely used open-source programming languages.
-
-The repository contains:
-
-* Five shell scripts demonstrating Linux concepts
-* A project report explaining the open-source analysis
-* Instructions to run the scripts on a Linux system
+</div>
 
 ---
 
-## About the Chosen Software – Python
 
-Python is an open-source programming language created by **Guido van Rossum** in 1991.
-It is known for its simple syntax, readability, and large developer community.
 
-Python is widely used in:
+## 👨‍🎓 Student Information
 
-* Web development
-* Artificial Intelligence
-* Machine Learning
-* Data Science
-* Automation
-* Software development
+| Field               | Details                                 |
+| ------------------- | --------------------------------------- |
+| Name                | Tanmay Ajay Dorle                       |
+| Registration Number | 24BCE10265                              |
+| Program             | B.Tech Computer Science and Engineering |
+| Course              | Open Source Software (OSS NGMC)         |
+| Project Title       | Open Source Audit Capstone Project      |
+| Selected Software   | Python Programming Language             |
+| University          | VIT Bhopal University                   |
 
-Python is distributed under the **Python Software Foundation License**, which allows users to freely use, modify, and distribute the software.
 
 ---
 
-# Project Structure
+# 🧠 Project Concept
+
+This repository is not just an assignment.
+
+It is a **technical exploration of the open-source ecosystem** and how Linux-based tools power modern computing.
+
+The project combines:
+
+* Linux system analysis
+* Open source research
+* Shell scripting
+* Real system interaction
+* Software ecosystem study
+
+Think of this project as:
 
 ```
-oss-audit-[rollnumber]
-
-README.md
-scripts/
-    system_identity.sh
-    package_inspector.sh
-    disk_auditor.sh
-    log_analyzer.sh
-    manifesto_generator.sh
-report/
-    oss_audit_report.pdf
+Open Source Philosophy + Linux Internals + Automation
 ```
 
 ---
 
-# Shell Scripts Description
+# 🌍 Why Python?
 
-## 1. system_identity.sh
+Python is one of the most influential open-source technologies in the world.
 
-This script displays basic information about the Linux system.
+It is used in:
 
-It shows:
+🚀 Artificial Intelligence
+📊 Data Science
+🌐 Web Development
+🔐 Cybersecurity
+🤖 Automation
+🛰 Space Research
+
+Fun fact:
+Python runs in systems used by **NASA, Google, Netflix, and Meta.**
+
+Created by **Guido van Rossum (1991)**, Python became a global open-source success story.
+
+---
+
+# 🏗 Repository Architecture
+
+```
+oss-audit-24BCE10265
+│
+├── README.md
+├── scripts
+│   ├── system_identity.sh
+│   ├── package_inspector.sh
+│   ├── disk_auditor.sh
+│   ├── log_analyzer.sh
+│   └── manifesto_generator.sh
+│
+└── report
+    └── oss_audit_report.pdf
+```
+
+---
+
+# ⚙ Scripts Overview
+
+## 🖥 System Identity Scanner
+
+`system_identity.sh`
+
+Displays important Linux system information:
 
 * Kernel version
 * Current user
-* System uptime
 * Linux distribution
-* Current date and time
-* Open source license information
+* System uptime
+* Date and time
+* License info
 
-Concepts used:
+Example output:
 
-* Variables
-* Command substitution
-* Echo statements
-
----
-
-## 2. package_inspector.sh
-
-This script checks whether Python is installed on the system.
-
-It also displays:
-
-* Installed version of Python
-* Basic information about the package
-* A short description using a case statement
-
-Concepts used:
-
-* if-else statements
-* case statements
-* package checking commands
+```
+System: Ubuntu Linux
+Kernel: 6.x.x
+User: tanmay
+Uptime: 3 hours
+License: GPL
+```
 
 ---
 
-## 3. disk_auditor.sh
+## 🔍 FOSS Package Inspector
 
-This script audits important Linux directories and displays:
+`package_inspector.sh`
 
-* Directory permissions
-* Owner information
-* Disk usage size
+Checks if Python is installed and displays:
 
-Directories checked:
+* Installed version
+* Package info
+* Description
+
+This script acts like a **mini package diagnostic tool**.
+
+---
+
+## 📂 Disk & Permission Auditor
+
+`disk_auditor.sh`
+
+Audits important Linux directories:
 
 * /etc
 * /var/log
@@ -119,98 +148,97 @@ Directories checked:
 * /usr/bin
 * /tmp
 
-Concepts used:
+Shows:
 
-* for loop
-* directory checks
-* awk and cut commands
+* Permissions
+* Ownership
+* Disk usage
+
+This script mimics **basic server auditing tasks**.
 
 ---
 
-## 4. log_analyzer.sh
+## 🕵 Log Analyzer
 
-This script analyzes a log file and counts how many times a specific keyword appears.
+`log_analyzer.sh`
 
-Example keywords:
+Reads system logs and counts errors or warnings.
 
-* error
-* warning
-
-Concepts used:
-
-* while loop
-* conditional statements
-* command line arguments
-
-Example usage:
+Example:
 
 ```
 ./log_analyzer.sh /var/log/syslog error
 ```
 
----
+Useful for:
 
-## 5. manifesto_generator.sh
-
-This script interactively generates a personalized open-source manifesto.
-
-The script:
-
-* Asks the user three questions
-* Generates a paragraph
-* Saves the output into a text file
-
-Concepts used:
-
-* User input using read
-* File creation
-* String concatenation
+* Debugging
+* Monitoring systems
+* Detecting issues
 
 ---
 
-# How to Run the Scripts
+## 🎯 Open Source Manifesto Generator
 
-### Step 1 – Open Terminal
+`manifesto_generator.sh`
 
-Navigate to the scripts folder.
+This is the **most creative script**.
+
+It asks the user about:
+
+* Their favorite open-source tool
+* Meaning of freedom
+* What they want to build
+
+Then generates a personal manifesto.
+
+Example output:
+
+```
+Open source represents freedom.
+Tools like Python empower developers.
+One day I want to build software that helps millions.
+```
+
+---
+
+# 💻 Running the Project
+
+### Step 1
+
+Navigate to scripts folder
 
 ```
 cd scripts
 ```
 
-### Step 2 – Make Scripts Executable
+### Step 2
+
+Give execution permission
 
 ```
 chmod +x *.sh
 ```
 
-### Step 3 – Run Scripts
+### Step 3
 
-Run Script 1
+Run scripts
 
 ```
 ./system_identity.sh
 ```
 
-Run Script 2
-
 ```
 ./package_inspector.sh
 ```
-
-Run Script 3
 
 ```
 ./disk_auditor.sh
 ```
 
-Run Script 4
-
 ```
 ./log_analyzer.sh /var/log/syslog error
 ```
-
-Run Script 5
 
 ```
 ./manifesto_generator.sh
@@ -218,39 +246,79 @@ Run Script 5
 
 ---
 
-# Dependencies
+# 📊 Project Progress
 
-To run the scripts properly, the system should have:
+Research
+██████████████████ 100%
 
-* Linux operating system
+Linux Testing
+██████████████████ 100%
+
+Shell Scripts
+██████████████████ 100%
+
+Report Writing
+██████████████████ 100%
+
+---
+
+# 🧰 Requirements
+
+System should have:
+
+* Linux OS
 * Bash shell
 * Python installed
-* Standard Linux utilities (awk, grep, du, ls)
+* Standard Linux utilities
+
+Most Linux systems already include these.
 
 ---
 
-# Learning Outcomes
+# 📚 Skills Demonstrated
 
-Through this project, I learned:
+This project demonstrates:
 
-* Fundamentals of open-source software
-* Linux system structure
-* Bash scripting
-* Software licensing concepts
-* Open-source ecosystem
-
----
-
-# Conclusion
-
-This project helped me understand how open-source software works and how it powers modern computing systems. Python is a great example of how community collaboration can create powerful tools used around the world.
+✔ Linux system exploration
+✔ Shell scripting
+✔ Open source understanding
+✔ Automation concepts
+✔ System auditing
+✔ Software ecosystem research
 
 ---
 
-# Repository Information
+# 🧠 What I Learned
 
-Repository Name:
+Before this project:
+I used open-source tools without thinking much about them.
+
+After this project:
+I realized **almost the entire internet runs on open-source software.**
+
+This changed how I look at software development.
+
+---
+
+# 🔥 Final Thought
+
+> Open source is not just code — it is a movement.
+
+Python proves that when developers collaborate openly, the results can power the entire world.
+
+---
+
+<div align="center">
+
+⭐ Thank you for viewing this project.
+
+</div>
+
+---
+
+# Repository
 
 ```
 oss-audit-24BCE10265
 ```
+
