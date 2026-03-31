@@ -1,0 +1,225 @@
+Open Source Audit Report
+
+Course: Open Source Software (OSS NGMC)
+Student Name: Tanmay Ajay Dorle
+Registration Number: 24BCE10265
+University: VIT Bhopal University
+Chosen Software: Python Programming Language
+
+1. Introduction
+
+Open-source software plays a crucial role in modern computing. Most technologies used today — including web servers, operating systems, programming languages, and cloud infrastructure — are built on open-source foundations.
+
+Open source allows developers to:
+
+View the source code
+Modify it
+Distribute it
+Improve it collaboratively
+
+This project focuses on conducting an Open Source Audit of Python, one of the most widely used programming languages in the world.
+
+The goal of this audit is to understand:
+
+How Python was created
+The philosophy behind it
+Its licensing model
+Its impact on the software industry
+How it works within Linux systems
+
+This project also includes Linux shell scripts that demonstrate interaction with open-source tools.
+
+2. Overview of Python
+
+Python is a high-level, interpreted programming language known for its simplicity and readability.
+
+It was created by Guido van Rossum in 1991.
+
+Python was designed with the goal of making programming easier to learn and more efficient for developers.
+
+Key characteristics of Python:
+
+Simple syntax
+Cross-platform support
+Large open-source community
+Extensive libraries
+Strong ecosystem
+
+Python is used in many fields such as:
+
+Artificial Intelligence
+Data Science
+Web Development
+Cybersecurity
+Automation
+Machine Learning
+
+Many major companies use Python including:
+
+Google
+Netflix
+Instagram
+NASA
+3. History of Python
+
+Python started as a small project but grew into one of the most influential programming languages.
+
+Timeline:
+
+1991 — Python was released publicly
+2000 — Python 2.0 introduced major improvements
+2008 — Python 3.0 released with modern features
+Today — Python is among the most popular languages worldwide
+
+Python's development is now managed by the Python Software Foundation.
+
+This organization maintains the language and ensures it remains open source.
+
+4. License Analysis
+
+Python is distributed under the Python Software Foundation License.
+
+This license allows users to:
+
+Use Python freely
+Modify the source code
+Distribute modified versions
+Use Python commercially
+
+This makes Python extremely flexible compared to many proprietary software systems.
+
+Open-source licensing ensures:
+
+Transparency
+Freedom for developers
+Continuous improvement by the community
+
+This is a core principle of open-source software.
+
+5. Why Python Exists
+
+Python was created to solve a problem in programming.
+
+Many programming languages were:
+
+Too complex
+Hard to read
+Difficult for beginners
+
+Python was designed to be:
+
+Easy to understand
+Efficient for development
+Powerful but simple
+
+Its philosophy is summarized in the famous concept:
+
+"Readability counts."
+
+Python follows the idea that code should look almost like plain English.
+
+6. Impact of Python on the World
+
+Python has had a massive impact on modern technology.
+
+Some major areas where Python is used include:
+
+Artificial Intelligence
+Machine Learning
+Cloud Computing
+Web Development
+Data Analysis
+Scientific Research
+
+Many popular frameworks are built on Python such as:
+
+Django
+Flask
+TensorFlow
+PyTorch
+
+Python has helped accelerate innovation in AI and data science.
+
+7. Python in the Linux Ecosystem
+
+Python integrates very well with Linux systems.
+
+Many Linux distributions include Python by default.
+
+Developers use Python on Linux for:
+
+Automation
+System administration
+Scripting
+DevOps
+Server management
+
+In this project, several shell scripts were created to demonstrate how Linux tools interact with software like Python.
+
+These scripts show:
+
+System information
+Package inspection
+Disk auditing
+Log analysis
+Open-source philosophy interaction
+8. Shell Scripts Created in This Project
+
+Five shell scripts were developed for this project.
+
+System Identity Script
+Displays system information such as:
+OS version
+Kernel version
+Current user
+System uptime
+Package Inspector Script
+Checks whether Python is installed and shows:
+Installed version
+Package details
+Disk Auditor Script
+Analyzes important system directories and shows:
+Disk usage
+Permissions
+Ownership
+Log Analyzer Script
+Reads Linux logs and identifies:
+Errors
+Warnings
+System issues
+Manifesto Generator Script
+Creates a personal open-source philosophy statement based on user input.
+
+These scripts demonstrate basic Linux automation and open-source interaction.
+
+9. What I Learned from This Project
+
+This project helped me understand that open-source software is the foundation of modern computing.
+
+Before doing this project, I used many tools without realizing they were open source.
+
+After completing this audit, I learned:
+
+How open-source communities work
+The importance of software licenses
+How Linux systems manage software
+How automation works through shell scripting
+
+I also gained practical experience working with Linux commands.
+
+10. Conclusion
+
+Open-source software is one of the most important developments in the history of technology.
+
+Python is a great example of how open collaboration can create powerful tools used worldwide.
+
+This audit helped me understand the technical and philosophical aspects of open-source software.
+
+As a future software engineer, understanding open source is essential because most modern applications are built on open-source foundations.
+
+This project strengthened my knowledge of:
+
+Linux systems
+Open-source development
+Automation
+Software ecosystems
